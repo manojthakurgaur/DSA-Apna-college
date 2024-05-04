@@ -57,7 +57,7 @@ using namespace std;
         }
         return -1;
     }
-
+//11:37Pm 04/05/2024::shortin of arrays::1.slection short
 int main(){
     int n;
     cin>>n;
@@ -72,6 +72,19 @@ int main(){
     return 0;
 }
 */
+//Apna college solution;
+void selection_sort(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[j]=arr[i]){
+                int temp=arr[j];
+                arr[j]=arr[i];
+                arr[i]=temp;
+            }
+        }
+    }
+}
+/*
 void selection_sort(int arr[],int n){
     
     for(int j=0;j<n;j++){
@@ -87,7 +100,7 @@ void selection_sort(int arr[],int n){
 }
                 
 
-
+/*
 int main(){
     int n;
     cin>>n;
@@ -103,6 +116,7 @@ int main(){
     return 0;
 
 }
+*/
 
 
 //chat gpta solution
@@ -143,4 +157,6 @@ int main(){
 
     return 0;
 }
-*/
+
+
+//apna college solution
