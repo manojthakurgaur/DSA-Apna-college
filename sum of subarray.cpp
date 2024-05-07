@@ -1,4 +1,4 @@
- 
+//My solution.
 void sum_subarray(int arr[],int n){
     int sum=0;
     int m=n;
@@ -13,7 +13,17 @@ void sum_subarray(int arr[],int n){
         m=m-1;
     }
     cout<<sum;
-
-
-
+}
+//Solution by apna college
+void sum_subarray(int arr[],int n){
+    void sum_subarray(int arr[],int n){
+    int sum=0;
+    for(int i=0; i<n;i++){
+        sum=0;
+        for(int j=i;j<n;j++){
+            sum+=arr[j];
+            cout<<sum[j]<<endl;
+        }
+    }
+}
 }
